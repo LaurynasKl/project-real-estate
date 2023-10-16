@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://laurynaskl.github.io/project-real_estate/
+Site published at: https://laurynaskl.github.io/project-real-estate/
 
 Design: [Real estate](https://dribbble.com/shots/10172325-Real-Estate-concept/attachments/2114690?mode=media)
 
@@ -45,7 +45,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/LaurynasKl/project-real_estate
+    git clone https://github.com/LaurynasKl/project-real-estate
     ```
 2. Install NPM packages
     ```sh
