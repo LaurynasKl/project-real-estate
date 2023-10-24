@@ -106,11 +106,11 @@ main {
     width: 100%;
     margin-bottom: 20px;
 }
-.title{
+.neighborhood .title{
     margin-bottom: 0;
 
 }
-.description{
+.neighborhood .description{
     margin-bottom: 20px;
 }
 
@@ -130,6 +130,16 @@ main {
 .neighborhood-listing > .listing-item.last-item{
     margin-right: 0;
 }
+/* .neighborhood-listing > .listing-item:nth-child(3) {
+    margin-right: 0;
+} */
+/* .neighborhood-listing > .listing-item:nth-child(3n) {
+    margin-right: 0;
+} */
+/* .neighborhood-listing > .listing-item:nth-last-child(2) {
+    margin-right: 0;
+} */
+
 .neighborhood-listing .item-image{
     width: 100%;
     height: 200px;
