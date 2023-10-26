@@ -100,12 +100,19 @@ main {
 }
 .form .filter-btn{
     padding: 10px 35px;
-    background-color: #8080ff;
-    color: white;
+    background-color: white;
+    color:#8080ff;
     font-size: 18px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+.form .filter-btn.active{
+    background-color: #8080ff;
+    color: white;
+}
+.form .filter-btn:hover{
+    box-shadow: 0 6px 8px #88f8;
 }
 .form >.search{
     display: flex;
@@ -113,6 +120,7 @@ main {
     width: 100%;
     padding: 10px;
     background-color: #fff;
+    border-radius: 14px;
 }
 form .label{
     display: none;
@@ -126,7 +134,7 @@ form .label{
 }
 ::placeholder{
     color: red;
-    font-size: 12px;
+    font-size: 15px;
     font-style: italic;
 }
 .form .search-btn{
@@ -141,6 +149,11 @@ form .label{
     text-transform: capitalize;
     box-shadow: 0 4px 8px rgba(255, 147, 118, 0.5);
     border:2px solid #ff9376;
+    cursor: pointer;
+}
+.form .search-btn:hover{
+    background-color: #fff;
+    color:#ff9376;
 }
 
 .neighborhood {
@@ -198,7 +211,7 @@ form .label{
     object-position: center;
     object-fit: cover;
 }
-.neighborhood-listing > .listing-item.last-item{
+.neighborhood-listing  .listing-item.last-item{
     height: 190px;
 }
 .neighborhood-listing .item-size{
@@ -227,9 +240,10 @@ form .label{
 }
 
 .btn{
+    display: inline-block;
     padding: 10px 20px;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 16px;
     border-radius: 8px;
     background-color: #ff9376;
     color: #fff;
@@ -307,17 +321,40 @@ form .label{
     color: #889ef9;
     cursor: pointer;
 }
+
+
 .recommended-listing .bookmark > .fa-bookmark{
     display: none;
 }
 .recommended-listing .bookmark:hover > .fa-bookmark{
     display: block;
 }
-.recommended-listing .bookmark:hover > .fa-bookmark-o {
+.recommended-listing .bookmark:hover > .fa-bookmark-o{
     display: none;
-}
-.recommended-listing .bookmark:active > .fa-bookmark-o {
-    
-}
+} 
+.recommended-listing .bookmark.active > .fa-bookmark{
+    display: block;
+} 
+.recommended-listing .bookmark.active > .fa-bookmark-o{
+    display: none;
+} 
+.recommended-listing .bookmark.active:hover > .fa-bookmark{
+    display: none;
+} 
+.recommended-listing .bookmark.active:hover > .fa-bookmark-o{
+    display: block;
+} 
+        /* sutrumpintas pvz */
+/* .recommended-listing .bookmark > .fa-bookmark,
+.recommended-listing .bookmark:hover > .fa-bookmark-o,
+.recommended-listing .bookmark.active > .fa-bookmark-o,
+.recommended-listing .bookmark.active:hover > .fa-bookmark{
+    display: none;
+} 
+.recommended-listing .bookmark:hover > .fa-bookmark,
+.recommended-listing .bookmark.active > .fa-bookmark,
+.recommended-listing .bookmark.active:hover > .fa-bookmark-o{
+    display: block;
+}  */
 
 
